@@ -5,7 +5,7 @@ Name:           puppet-inifile
 Version:        XXX
 Release:        XXX
 Summary:        Resource types for managing settings in INI files
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-inifile
 
