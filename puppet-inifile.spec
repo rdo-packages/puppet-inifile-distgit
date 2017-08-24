@@ -1,15 +1,18 @@
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 %define upstream_name puppetlabs-inifile
+%{!?upstream_version: %global upstream_version %{commit}}
+%global commit 16fd47d7c74e9bf44ec6f6a9197f16e9a3f57092
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+%global alphatag .%{shortcommit}git
 
 Name:           puppet-inifile
-Version:        XXX
-Release:        XXX
+Version:        2.0.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Resource types for managing settings in INI files
 License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-inifile
 
-Source0:        https://github.com/puppetlabs/puppetlabs-inifile/archive/%{version}.tar.gz
+Source0:        https://github.com/puppetlabs/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
@@ -44,4 +47,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 
 
 %changelog
-
+* Thu Aug 24 2017 Alfredo Moralejo <amoralej@redhat.com> 2.0.0-1.16fd47dgit
+- Pike update 2.0.0 (16fd47d7c74e9bf44ec6f6a9197f16e9a3f57092)
