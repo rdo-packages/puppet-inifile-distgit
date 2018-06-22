@@ -38,7 +38,6 @@ install -d -m 0755 %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 
 
-
 %files
 %{_datadir}/openstack-puppet/modules/inifile/
 
