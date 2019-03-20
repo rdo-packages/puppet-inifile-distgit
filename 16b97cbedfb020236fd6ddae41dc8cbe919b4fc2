@@ -16,6 +16,24 @@
       "revId": "16b97cbedfb020236fd6ddae41dc8cbe919b4fc2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8043a65c_01aa3730",
+        "filename": "puppet-inifile.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-03-20T10:44:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ff67b60_cb7cfae8",
+      "revId": "16b97cbedfb020236fd6ddae41dc8cbe919b4fc2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
