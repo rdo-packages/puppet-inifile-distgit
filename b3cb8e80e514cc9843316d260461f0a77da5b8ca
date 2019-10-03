@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aff5fca4_dbc38213",
+        "filename": "puppet-inifile.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2019-10-03T09:21:00Z",
+      "side": 1,
+      "message": "need to convert to snapshot build as 3.1.0 !\u003d 91efced79bb9011e162eea35e4a0d9ad12e267a1",
+      "revId": "b3cb8e80e514cc9843316d260461f0a77da5b8ca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
