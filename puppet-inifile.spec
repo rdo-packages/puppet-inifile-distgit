@@ -51,3 +51,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 - Update to post 3.1.0 (91efced79bb9011e162eea35e4a0d9ad12e267a1)
 
 
+
