@@ -9,7 +9,7 @@ License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-inifile
 
-Source0:        https://github.com/puppetlabs/puppetlabs-inifile/archive/%{version}.tar.gz
+Source0:        https://github.com/puppetlabs/puppetlabs-inifile/archive/v%{version}.tar.gz
 
 BuildArch:      noarch
 
