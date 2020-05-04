@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4cf81e90_96c108b4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-04T15:45:45Z",
+      "side": 1,
+      "message": "Update to 4.2.0",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 63
+      },
+      "revId": "8e36bb173f8610dfa1dc42318e0c68f4d1d52b03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7e46311_69fce9a7",
+        "filename": "puppet-inifile.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-04T15:45:45Z",
+      "side": 1,
+      "message": "4.2.0",
+      "range": {
+        "startLine": 5,
+        "startChar": 16,
+        "endLine": 5,
+        "endChar": 21
+      },
+      "revId": "8e36bb173f8610dfa1dc42318e0c68f4d1d52b03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a90cd1a2_80f701a3",
+        "filename": "puppet-inifile.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-04T15:45:45Z",
+      "side": 1,
+      "message": "1%{?dist}",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 37
+      },
+      "revId": "8e36bb173f8610dfa1dc42318e0c68f4d1d52b03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c0fdf8c9_803ae02d",
+        "filename": "puppet-inifile.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-05-04T15:45:45Z",
+      "side": 1,
+      "message": "Update to 4.2.0",
+      "range": {
+        "startLine": 47,
+        "startChar": 2,
+        "endLine": 47,
+        "endChar": 65
+      },
+      "revId": "8e36bb173f8610dfa1dc42318e0c68f4d1d52b03",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
