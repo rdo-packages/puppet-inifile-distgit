@@ -2,8 +2,8 @@
 %define upstream_name puppetlabs-inifile
 
 Name:           puppet-inifile
-Version:        XXX
-Release:        XXX
+Version:        5.3.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Resource types for managing settings in INI files
 License:        ASL 2.0
 
@@ -43,4 +43,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 
 
 %changelog
+* Fri Sep 30 2022 RDO <dev@lists.rdoproject.org> 5.3.0-1.687ecf3git
+- Update to post 5.3.0 (687ecf34b35e3739a4c932cf8a78353ebe75d2b9)
+
 
