@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Wed, 11 Oct 2023 08:47:20 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/puppet/puppet-inifile-distgit/+/50435
+Project: puppet/puppet-inifile-distgit
+Branch: refs/heads/bobcat-rdo
