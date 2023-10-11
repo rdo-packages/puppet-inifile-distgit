@@ -1,15 +1,19 @@
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+%{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppetlabs-inifile
+%global commit 5fc45079c949b47c94db0e0fc438c77e2b81f5e8
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
 
 Name:           puppet-inifile
-Version:        XXX
-Release:        XXX
+Version:        6.1.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Resource types for managing settings in INI files
 License:        ASL 2.0
 
 URL:            https://github.com/puppetlabs/puppetlabs-inifile
 
-Source0:        https://github.com/puppetlabs/puppetlabs-inifile/archive/v%{version}.tar.gz
+Source0:        https://github.com/puppetlabs/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
@@ -43,4 +47,5 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 
 
 %changelog
-
+* Wed Oct 11 2023 RDO <dev@lists.rdoproject.org> 6.1.0-1.5fc4507git
+- Update to post 6.1.0 (5fc45079c949b47c94db0e0fc438c77e2b81f5e8)
