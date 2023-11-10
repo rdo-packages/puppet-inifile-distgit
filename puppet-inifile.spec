@@ -1,4 +1,3 @@
-%global milestone .0rc0
 %{!?upstream_version: %global upstream_version %{commit}}
 %global upstream_name puppetlabs-inifile
 %global commit 687ecf34b35e3739a4c932cf8a78353ebe75d2b9
@@ -7,8 +6,8 @@
 %global alphatag .%{shortcommit}git
 
 Name:           puppet-inifile
-Version:        5.3.0
-Release:        2.1%{?milestone}%{?alphatag}%{?dist}
+Version:        5.4.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Resource types for managing settings in INI files
 License:        ASL 2.0
 
@@ -48,6 +47,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/inifile/
 
 
 %changelog
+* Fri Nov 10 2023 RDO <dev@lists.rdoproject.org> 5.4.0-1.687ecf3git
+- Update to 5.4.0
+
 * Tue Oct 25 2022 Joel Capitao <jcapitao@redhat.com> 5.3.0-2.1.0rc0.687ecf3git
 - Set the right commit
 
